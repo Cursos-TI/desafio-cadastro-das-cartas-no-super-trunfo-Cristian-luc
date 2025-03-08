@@ -1,13 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    char carta1[10], carta2[10];
-    char estado1[5], estado2[5];
-    char nomeCidade1[100], nomeCidade2[100];
-    int populacao1, populacao2;
-    float area1, area2;
-    float pib1, pib2;
-    int pontosturisticos1, pontosturisticos2;
+    char carta1[10]; 
+    char carta2[10];
+    char estado1[5];
+    char estado2[5];
+    char nomeCidade1[100]; 
+    char nomeCidade2[100];
+    int populacao1;
+    int populacao2;
+    float area1;
+    float area2;
+    float pib1;
+    float pib2;
+    int pontosturisticos1;
+    int pontosturisticos2;
 
     printf("Carta 1\n");
     printf("insira o código do estado 1: ");
